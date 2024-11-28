@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## API de Gerenciamento de Usuários e Transações Financeiras
 Este é um projeto de exemplo para gerenciar usuários e transações financeiras. Ele implementa uma API RESTful desenvolvida em Java utilizando o framework Spring Boot. O banco de dados em memória H2 é utilizado para armazenamento.
 
@@ -126,6 +125,3 @@ Autenticação e autorização com Spring Security.
 Implementação de testes unitários e de integração.
 Paginação na listagem de usuários.
 Internacionalização das mensagens de erro.
-=======
-# aplica-o-JAVA
->>>>>>> 0a8fd2f1d2c1a9e7b4952174b35fed1ec6ccfc1f
