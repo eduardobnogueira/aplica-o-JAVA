@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ## API de Gerenciamento de Usuários e Transações Financeiras
 Este é um projeto de exemplo para gerenciar usuários e transações financeiras. Ele implementa uma API RESTful desenvolvida em Java utilizando o framework Spring Boot. O banco de dados em memória H2 é utilizado para armazenamento.
 
@@ -109,23 +109,3 @@ Corpo da Requisição
     "contaDestino": "000456",
     "valor": 100.0
 }
-Resposta de Sucesso (200 OK)
-{ "mensagem": "Transferência realizada com sucesso." }
-Resposta de Erro (400 Bad Request)
-Saldo insuficiente:
-{ "error": "Saldo insuficiente para a transação." }
-Resposta de Erro (404 Not Found)
-Conta de origem ou destino não encontrada:
-{ "error": "Conta de origem não encontrada." }
-Decisões Técnicas
-Persistência: Utilizei o banco de dados em memória H2 para simplificar o desenvolvimento e os testes.
-Gerenciamento de Erros: Criei uma classe customizada para tratar exceções e retornar mensagens claras e status HTTP apropriados.
-Número da Conta: Foi implementada uma geração automática de IDs únicos para as contas utilizando UUID.
-Melhorias Futuras
-Autenticação e autorização com Spring Security.
-Implementação de testes unitários e de integração.
-Paginação na listagem de usuários.
-Internacionalização das mensagens de erro.
-=======
-# aplica-o-JAVA
->>>>>>> 0a8fd2f1d2c1a9e7b4952174b35fed1ec6ccfc1f
