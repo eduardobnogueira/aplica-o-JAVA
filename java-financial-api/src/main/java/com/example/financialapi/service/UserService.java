@@ -41,6 +41,7 @@ public class UserService {
         return userDAO.findAll();
     }
 
+
     public void updateUserBalance(String numeroConta, BigDecimal novoSaldo) {
         userDAO.updateSaldo(numeroConta, novoSaldo);
     }
